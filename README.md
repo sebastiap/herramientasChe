@@ -2,6 +2,9 @@
 You can try the live version on :
 https://herramientasche.netlify.app/#/
 
+
+
+
 # What is this proyect about?
 + This proyect started as a Vue.js practice and scaleted to a full Web App.
 - This is actually a "Tribute" to the Original proyect.[^tribute] .
@@ -12,23 +15,28 @@ https://herramientasche.netlify.app/#/
 - This was my first proyect in Vue. So don't expect much :D .
 
 # What tools this proyect includes?
-Comandos
+Comandos / Commands
 + Personalized mail maker for implementations.
-+ Personalized mail maker for SQL GRANTS.[^permit]:
-+ Personalized mail maker for SQL GRANTS of an external DATABASE.[^permit]:
++ Personalized mail maker for SQL GRANTS.[^permit].
++ Personalized mail maker for SQL GRANTS of an external DATABASE.[^permit].
 + Parse a single line SQL PERMISSION into several lines.
+
 Template
 + Generate a mail to inform a new implementation.
++ Using Datepicker[^date] and QuillJS[^quill] (Textarea) .
 + This features use localstorage to save up to 3 templates.
 + To use the generated form, you need to import HTML in your mail. You also has to have your local mail configured.
-Reportes
+
+Reportes/Reports
 - Make a TestCase Report 
 - you can inform the UC used and the errors and bug found in the testing process.
 - A PDF Report can be printed
-Escenarios
+
+Escenarios / Scenarios
 + Was a tool to create Use Cases or Test Scenarios with a backend.
 + Since the backend was made by another area i felt was not fair to use it here .
 + Only a concept Tool.
+
 Misc
 + A tutorial Page with 3 examples
 + A concept list of Apps made with Bootstrap Elements
@@ -44,6 +52,9 @@ This app was made mainly with Vue.
 
 [^tribute]: This is a joke based on the popular tenacius D song https://www.youtube.com/watch?v=_lK4cX5xGiQ
 [^permit]: Yes, we have a lOT of authorizations, included for grants and revokes. The file generated here was sended to another group to execute.
+[^quill]: https://quilljs.com/
+[^date]:https://www.npmjs.com/package/js-datepicker
+
 ## Build Setup
 
 ``` bash
